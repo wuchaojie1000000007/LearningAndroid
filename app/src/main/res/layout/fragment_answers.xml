@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AnswersFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:id="@+id/quiz_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="@string/quiz_largest_planet" />
+
+            <TextView
+                android:id="@+id/mercury"
+                style="@style/answer_box"
+                android:text="@string/mercury" />
+
+            <TextView
+                android:id="@+id/venus"
+                style="@style/answer_box"
+                android:text="@string/venus" />
+
+            <TextView
+                android:id="@+id/earth"
+                style="@style/answer_box"
+                android:text="@string/earth" />
+
+            <TextView
+                android:id="@+id/mars"
+                style="@style/answer_box"
+                android:text="@string/mars" />
+
+            <TextView
+                android:id="@+id/jupiter"
+                style="@style/answer_box"
+                android:text="@string/jupiter" />
+
+            <TextView
+                android:id="@+id/saturn"
+                style="@style/answer_box"
+                android:text="@string/saturn" />
+
+            <TextView
+                android:id="@+id/uranus"
+                style="@style/answer_box"
+                android:text="@string/uranus" />
+
+            <TextView
+                android:id="@+id/neptune"
+                style="@style/answer_box"
+                android:text="@string/neptune" />
+
+            <TextView
+                android:id="@+id/res_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="@string/res_text" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
